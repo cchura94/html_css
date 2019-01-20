@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>formularios en html</title>
+</head>
+<body>
+<h1>Formularios en Html</h1>
+
+<form action="" method="post" enctype="multipart/form-data">
+<fieldset>
+	<legend>Registro de Personal</legend>
+	<label for="user">Ingrese su Usuario</label>
+		<input name="usuario" type="text" id="user" disabled="disabled" value="Carlos" readonly="readonly"/> <br/>
+	<input name="nombre" type="text"  placeholder="Ingrese su Usuaior" maxlength="16" size="16"/>
+	</fieldset>
+	<br/>
+	<input name="lenguajes" type="checkbox" value="HTML" />HTML
+	<input name="lenguajes" type="checkbox" value="CSS" checked="checked"/> CSS
+	<input name="lenguajes" type="checkbox" value="JAVASCRIPT"/> JAVASCRIPT
+	<br />
+	<input name="genero" type="radio" value="M" />Masculino
+	<input name="genero" type="radio" value="F" checked="checked" />Femenino
+	<br />
+	<input name="archivo" type="file" />
+	<br />
+	<input name="contrasena" type="password" placeholder="Ingrese su Contraseña" />
+	<br />
+	<input name="codigo" type="hidden" value="9121344" />
+	<br />
+	<input name="boton" type="submit"/>
+	<input name="reset" type="reset"/>
+	<input name="button" type="button" value="Verificar datos" />
+	<br />
+	<select name="lenguajes">
+		<option value="html">HTML</option>
+		<option value="css">CSS</option>
+		<option value="javascript">JAVASCRIPT</option>
+	</select>
+	<br />
+	<select name="lenguajes" multiple="multiple">
+		<option value="html">HTML</option>
+		<option value="css">CSS</option>
+		<option value="javascript">JAVASCRIPT</option>
+	</select>
+	<br />
+	<select name="lenguajes">
+		<optgroup label="Tecnologias">
+			<option value="html">HTML</option>
+		</optgroup>
+		<optgroup label="Otros">
+			<option value="css">CSS</option>
+			<option value="javascript">JAVASCRIPT</option>
+		</optgroup>
+	</select>
+	<br />
+	<textarea name="texto" cols="22" rows="5">Esta es mi primera linea</textarea>
+		
+	
+</form>
+  
+</body>
+</html>
