@@ -1,0 +1,52 @@
+/*
+Diseñado por Nombre
+Los colores son: #768797;
+El orden de estilos son *, etiquetas, selectores, identificadores
+subtititulo
+*/
+*{
+	margin:0;
+	padding:0;
+}
+/* Etiquetas */
+body{
+	background-color:#CCCCCC;
+}
+h1{
+	color:#333;
+}
+h2{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+/* varias etiquetas */
+p span{
+	background-color:#fffccc;
+}
+
+p span strong{
+	font-size:3em;
+
+}
+p span strong em{
+	color:#FF0000;
+}
+
+
+
+/* Selectores */
+.titulo{
+	background-color:#CCCCCC;
+	font-size:3em;
+}
+.subtitulo{
+	color:#0000ff;
+	background-color:#00FF33;
+}
+
+h2.titulo{
+	margin:40px;
+	padding:20px;
+}
+#uno{
+	border:solid #FF0000;
+}
