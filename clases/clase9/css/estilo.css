@@ -1,0 +1,98 @@
+*{
+			padding: 0;
+			margin: 0;
+		}
+		body{
+			background: rgb(58, 58, 58);
+			color: white;
+			font-family: Helvetica Neve, Helvetica, Arial;
+		}
+		.header{
+			background-color: black;
+			padding: 20px;
+			text-align: center;
+			height: 400px;
+			background-image: url(./../img/banner3.jpg);
+			background-size: 100%;
+			background-position: top;
+		}
+		.header a{
+			color: white;
+			text-decoration: none;
+			text-transform: uppercase;
+			margin-top: 40px;
+		}
+		.header .logo a{
+			display: inline-block;
+			background-image: url(./../img/logo.png);
+			background-size: 300px;
+			background-repeat: no-repeat;
+			width: 300px;
+			height: 80px;
+			top: -30px;
+			position: relative;
+			text-indent: -999999px;
+
+		}
+		.caracteristicas{
+			background: white;
+			color: gray;
+			padding: 20px;
+			display: flex;
+			flex-direction:row;
+
+		}
+		.caracteristicas .secciones{
+			margin: auto;
+			width: 200px;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		.caracteristicas .secciones img{
+			width: 200px;
+			border-radius: 50%;
+			box-shadow: black 10px 10px 10px;
+			border: 1px solid white;
+		}
+		.descripccion{
+			margin-top: 20px;
+		}
+		ul{
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		li{
+			display: inline-block;
+			margin: 0 20px 0 0;
+		}
+		.footer{
+			background: black;
+			padding: 20px 20px;
+			color: gray;
+			font-size: 12px;
+			text-align: center;
+
+		}
+
+/* Media Queries */
+
+@media screen and (max-width: 800px) {
+	.caracteristicas{
+		display: block;
+	}
+
+	.header{
+			background-color: black;
+			padding: 20px;
+			text-align: center;
+			height: 400px;
+			background-image: url(./../img/banner_movil.jpg);
+			background-size: 100%;
+			background-position: top;
+		}
+}
+
+@media screen and (max-width: 480px) {
+		
+}
